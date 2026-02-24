@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, ChatJoinRequestHandler
 
-TOKEN = "8485925922:AAFM9EcljRLHF_1MxlFBm24SXrC2zko0DUc"
+TOKEN = os.environ.get("BOT_TOKEN")
 PHOTO_URL = ""C:\Users\Francesco\Downloads\sofia.jpg""
 TEXT = (
     "Ciaooo 😘\n\n"
