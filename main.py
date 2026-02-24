@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, ChatJoinRequestHandler
 
 TOKEN = os.environ.get("BOT_TOKEN")
-PHOTO_URL = ""C:\Users\Francesco\Downloads\sofia.jpg""
+PHOTO_URL = "https://instasize.com/p/1f0e2543b0c113c2d9912fed813c305807a68070553664a7fb913597a70e6a4a"
 TEXT = (
     "Ciaooo 😘\n\n"
     "La tua richiesta è stata approvata!\n\n"
